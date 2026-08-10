@@ -228,7 +228,7 @@
         (shrface-toggle-bullets nil)
         (shrface-href-versatile t)
         (shr-use-fonts nil)           ; nil to use default font
-        (shr-map nov-mode-map))
+        (shr-map nov-button-map))
 
     ;; HACK: `shr-external-rendering-functions' doesn't cover
     ;; every usage of `shr-tag-img'
